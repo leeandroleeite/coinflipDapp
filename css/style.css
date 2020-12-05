@@ -1,0 +1,44 @@
+
+.top {
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.coinSelection {
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  padding: 1px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+  }
+
+  input[type="number"]::placeholder {
+
+
+                text-align: right;
+
+  }
+
+  input[type="number"]:enabled {
+
+
+                          text-align: right;
+
+                      }
